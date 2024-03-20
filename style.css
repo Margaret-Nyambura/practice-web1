@@ -1,0 +1,471 @@
+#website{
+    background-color: black;
+    color: wheat;
+    padding-top: 20px;
+}
+#topnav{
+    background-color: grey;
+    color: whitesmoke;
+    border-radius: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+.top2{
+    display: flex;
+    gap: 50px;
+}
+.t1{
+    font-size: 5em;
+}
+.text{
+    font-size: 2em;
+}
+#photo1{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+button{
+    background-color: white;
+    color: black;
+    width: 30%;
+    padding: 10px;
+}
+#photo2{
+    padding-top: 70px;
+    display: flex;
+    gap: 15%;
+}
+.t2{
+    font-size: 25px;
+}
+.t3{
+    font-size: 25px;
+}
+#photo3{
+    margin-left: 5%;
+    padding-top: 50px;
+}
+#imageline1{
+    margin-left: 10%;
+    display: flex;
+    padding-top: 50px;
+}
+#gallery{
+    padding-top: 50px;
+}
+.photos1{
+    display: flex;
+    margin-left: 20%;
+    gap: 10px;
+}
+.photos2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;    
+    gap: 20px;
+}
+#photo4{
+    padding-top: 80px;
+}
+#photo4{
+    display: flex;
+    justify-content: space-around;
+}
+.text3{
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+#responses{
+    text-align: center;
+    padding-top: 50px;
+}
+#clients-say{
+    display: flex;
+    justify-content: space-around;
+}
+.tag{
+    display: flex;
+    gap: 55%;
+}
+.tag2{
+    display: flex;
+    gap: 55%;
+}
+.tag3{
+    display: flex;
+    gap: 55%;
+}
+#bottom-photos{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+.contacts{
+    font-size:25px;
+}
+.bottom-button{
+   padding-top: 30px;
+}
+#set1{
+    display: flex;
+    gap: 80px;
+}
+.down-bar{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+#set1{
+    display: flex;
+    justify-content: space-around;
+}
+#set2{
+    display: flex;
+    gap: 40px;
+}
+
+@media only screen and (max-width: 400px){
+    #website{
+        background-color: black;
+        color: wheat;
+        /*padding-top: 20px;*/
+    }
+    #topnav{
+        background-color: grey;
+        color: whitesmoke;
+        border-radius: 30px;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       /* margin-left: 5%;*/
+      /*  margin-right: 5%;*/
+       /* padding: 15px;*/
+    }
+    .top2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .t1{
+        font-size: 5em;
+    }
+    .text{
+        font-size: 2em;
+    }
+    #photo1{
+        /* padding-top: 150px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    button{
+        background-color: white;
+        color: black;
+        width: 30%;
+        /* padding: 10px; */
+    }
+    #photo2{
+        /* padding-top: 70px; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15%;
+    }
+    .t2{
+        font-size: 25px;
+    }
+    .t3{
+        font-size: 25px;
+    }
+    #photo3{
+        /* margin-left: 5%;
+        padding-top: 50px; */
+    }
+    #imageline1{
+        /* margin-left: 10%; */
+        display: flex;
+        flex-wrap: wrap;
+        /* padding-top: 50px; */
+    }
+    #gallery{
+        /* padding-top: 50px; */
+    }
+    .photos1{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 20%; */
+        gap: 10px;
+    }
+    .photos2{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 10%; */
+        /* margin-right: 10%;     */
+        gap: 20px;
+    }
+    #photo4{
+        padding-top: 80px;
+    }
+    #photo4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .text3{
+        font-size: 30px;
+        text-decoration-line: underline;
+    }
+    #responses{
+        text-align: center;
+        /* padding-top: 50px; */
+    }
+    #clients-say{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .tag{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55%;
+    }
+    .tag2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55%;
+    }
+    .tag3{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 55%;
+    }
+    #bottom-photos{
+        display: flex;
+        justify-content: space-between;
+
+        flex-wrap: wrap;
+
+        gap: 100px;
+        /* padding-left: 180px; */
+        /* padding-top: 50px; */
+    }
+    .contacts{
+        font-size:25px;
+    }
+    .bottom-button{
+       padding-top: 30px;
+    }
+    #set1{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 80px;
+    }
+    .down-bar{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 20px;
+        font-size: 20px;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+        /* padding-top: 100px; */
+    }
+    #set1{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+    }
+    #set2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+}
+@media only screen and (max-width: 1000px){
+    #website{
+        background-color: black;
+        color: wheat;
+        /*padding-top: 20px;*/
+    }
+    #topnav{
+        background-color: grey;
+        color: whitesmoke;
+        border-radius: 30px;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       /* margin-left: 5%;*/
+      /*  margin-right: 5%;*/
+       /* padding: 15px;*/
+    }
+    .top2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .t1{
+        font-size: 5em;
+    }
+    .text{
+        font-size: 2em;
+    }
+    #photo1{
+        /* padding-top: 150px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    button{
+        background-color: white;
+        color: black;
+        width: 30%;
+        /* padding: 10px; */
+    }
+    #photo2{
+        /* padding-top: 70px; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15%;
+    }
+    .t2{
+        font-size: 25px;
+    }
+    .t3{
+        font-size: 25px;
+    }
+    #photo3{
+        /* margin-left: 5%;
+        padding-top: 50px; */
+    }
+    #imageline1{
+        /* margin-left: 10%; */
+        display: flex;
+        flex-wrap: wrap;
+        /* padding-top: 50px; */
+    }
+    #gallery{
+        /* padding-top: 50px; */
+    }
+    .photos1{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 20%; */
+        gap: 10px;
+    }
+    .photos2{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 10%; */
+        /* margin-right: 10%;     */
+        gap: 20px;
+    }
+    #photo4{
+        padding-top: 80px;
+    }
+    #photo4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .text3{
+        font-size: 30px;
+        text-decoration-line: underline;
+    }
+    #responses{
+        text-align: center;
+        /* padding-top: 50px; */
+    }
+    #clients-say{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .tag{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55%;
+    }
+    .tag2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55%;
+    }
+    .tag3{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 55%;
+    }
+    #bottom-photos{
+        display: flex;
+        justify-content: space-between;
+
+        flex-wrap: wrap;
+
+        gap: 100px;
+        /* padding-left: 180px; */
+        /* padding-top: 50px; */
+    }
+    .contacts{
+        font-size:25px;
+    }
+    .bottom-button{
+       padding-top: 30px;
+    }
+    #set1{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 80px;
+    }
+    .down-bar{
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 20px;
+        font-size: 20px;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+        /* padding-top: 100px; */
+    }
+    #set1{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+    }
+    #set2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+}
